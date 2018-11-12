@@ -1,0 +1,24 @@
+{
+  "applications": [
+    {
+      "application": "george",
+      "capabilities": [
+        {
+          "module": "rest",
+          "runtime": "vertx",
+          "groupId": "org.openshift.appgen",
+          "artifactId": "my-app",
+          "version": "1.0"
+        },
+        {
+          "module": "database",
+          "runtime": "vertx",
+          "databaseType": "postgresql",
+          "groupId": "org.openshift.appgen",
+          "artifactId": "my-app",
+          "version": "1.0"
+        }
+      ]
+    }
+  ]
+}
